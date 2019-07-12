@@ -1,0 +1,20 @@
+language: php
+
+php:
+    - 7.3
+
+before_install:
+    - phpenv config-rm xdebug.ini || return 0 # Turn off XDebug
+
+install:
+    - travis_retry composer install --no-progress --prefer-dist # Composer
+
+script:
+    - make lint
+    - make qa
+
+sudo: false
+
+cache:
+    directories:
+        - $HOME/.composer/cache

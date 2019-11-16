@@ -1,6 +1,6 @@
 # Modette Exceptions
 
-Exceptions used across all Modette packages.
+Base exceptions designed for static analysis and easy usage
 
 ## Content
 
@@ -62,7 +62,7 @@ We currently provide following unchecked exceptions:
 
 ## Configuration helper
 
-All of our exceptions use `ConfigurationHelper` which allows to add message, code and previous exception via fluent interface.
+All of our exceptions use `ConfigurationHelper` which allows to add message, code and previous exception through fluent interface.
 
 ```php
 use Modette\Exceptions\Logic\InvalidArgumentException;

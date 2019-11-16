@@ -57,6 +57,7 @@ We currently provide following unchecked exceptions:
 - `InvalidArgumentException` - argument does not match with expected value
 - `InvalidStateException` - method call is invalid for the object's current state
 - `NotImplementedException` - method is not implemented
+- `ShouldNotHappenException` - for cases which should never happen but it's safer or easier to read with that "dead" branch of code
 - `LogicalException` - generic, base exception, must be extended
 
 ## Configuration helper

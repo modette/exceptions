@@ -6,6 +6,7 @@
 
 <p align="center">
   <a href="https://travis-ci.org/modette/exceptions"><img src="https://img.shields.io/travis/modette/exceptions.svg?style=flat-square" alt="Build Status"/></a>
+  <a href="https://coveralls.io/r/modette/exceptions"><img src="https://img.shields.io/coveralls/modette/exceptions.svg?style=flat-square" alt="Code Coverage"/></a>
   <a href="https://packagist.org/packages/modette/exceptions"><img src="https://img.shields.io/packagist/l/modette/exceptions.svg?style=flat-square" alt="License"/></a>
   <a href="https://packagist.org/packages/modette/exceptions"><img src="https://img.shields.io/packagist/dm/modette/exceptions.svg?style=flat-square" alt="Downloads this Month"/></a>
   <a href="https://packagist.org/packages/modette/exceptions"><img src="https://img.shields.io/packagist/dt/modette/exceptions.svg?style=flat-square" alt="Downloads total"/></a>

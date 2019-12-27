@@ -1,5 +1,6 @@
 # Not archived
 docs export-ignore
+tests export-ignore
 var export-ignore
 .editorconfig export-ignore
 .gitattributes export-ignore
@@ -7,6 +8,9 @@ var export-ignore
 .travis.yml export-ignore
 CHANGELOG.md export-ignore
 Makefile export-ignore
-phpstan.neon export-ignore
+phpstan.base.neon export-ignore
+phpstan.src.neon export-ignore
+phpstan.tests.neon export-ignore
+phpunit.xml export-ignore
 README.md export-ignore
 ruleset.xml export-ignore

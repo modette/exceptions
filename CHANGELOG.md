@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [1.0.1] - 2019-12-27
+
 ### Fixed
 
 - `ConfigurationHelper::withPrevious()` - properly sets previous exception
@@ -24,4 +26,6 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
   - `ShouldNotHappenException`
   - `LogicalException`
 
+[Unreleased]: https://github.com/modette/exceptions/compare/v1.0.1...HEAD
+[1.0.1]: https://github.com/modette/exceptions/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/modette/exceptions/releases/tag/v1.0.0

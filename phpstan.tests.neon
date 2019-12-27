@@ -6,3 +6,4 @@ parameters:
 		# Intentional, tests reporting
 		- message: '#^Missing \@throws Tests\\Modette\\Exceptions\\Fixtures\\ExampleDomainException annotation$#'
 		  path: %currentWorkingDirectory%/tests/Unit/Check/CheckedExceptionTest.php
+		  count: 1

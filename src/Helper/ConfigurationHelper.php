@@ -3,6 +3,7 @@
 namespace Modette\Exceptions\Helper;
 
 use Exception;
+use ReflectionClass;
 use Throwable;
 
 /**
@@ -10,9 +11,6 @@ use Throwable;
  */
 trait ConfigurationHelper
 {
-
-	/** @var Throwable|null */
-	protected $previous;
 
 	/**
 	 * @return static
@@ -39,7 +37,11 @@ trait ConfigurationHelper
 	 */
 	public function withPrevious(Throwable $throwable)
 	{
-		$this->previous = $throwable;
+		$reflection = new ReflectionClass(Exception::class);
+		$property = $reflection->getProperty('previous');
+		$property->setAccessible(true);
+		$property->setValue($this, $throwable);
+		$property->setAccessible(false);
 
 		return $this;
 	}

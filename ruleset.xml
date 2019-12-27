@@ -10,4 +10,8 @@
             "/>
         </properties>
     </rule>
+
+	<rule ref="SlevomatCodingStandard.Exceptions.ReferenceThrowableOnly.ReferencedGeneralException">
+		<exclude-pattern>src/Helper/ConfigurationHelper.php</exclude-pattern>
+	</rule>
 </ruleset>

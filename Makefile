@@ -18,8 +18,8 @@ csf: ## Fix PHP files coding style
 	vendor/bin/phpcbf --cache=var/tmp/codesniffer.dat --standard=ruleset.xml --extensions=php,phtml --colors -nsp src tests
 
 phpstan: ## Analyse code with PHPStan
-	vendor/bin/phpstan analyse -l 7 -c phpstan.src.neon src
-	vendor/bin/phpstan analyse -l 1 -c phpstan.tests.neon tests
+	vendor/bin/phpstan analyse -c phpstan.src.neon
+	vendor/bin/phpstan analyse -c phpstan.tests.neon
 
 # Tests
 
